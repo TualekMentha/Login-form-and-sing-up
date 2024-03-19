@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+
+    margin: -20px 0 50px;
+
+    background-color: #F6F5F5;
+  }
+
+.container {
+    display: flex;
+    width: 768px;
+    height: 480px;
+    border-radius: 10px;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.18);
+    background-color: white;
+  }
+
+.singin-container {
+    width: 50%;
+    height: 100%;
+
+  }
+
+h1 {
+    font-weight: 780;
+    margin: 0;
+}
+
+
+form, .singup  {
+    display: flex;
+    height: 100%;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: #ffffff;
+
+  }
+
+.singup {
+    background: linear-gradient(to right top, #183a71, #215c8e, #397fa8, #5aa2bf, #81c5d6);
+    color: white;
+  }
+
+span {
+    font-size: 12px;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+
+    height: 38px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+input[type="text"]{
+    padding-block: 1px;
+    padding-inline: 2px;
+    padding: 12px 15px;
+
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+button {
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    
+    border: 1px solid #41C9E2;
+    background-color: #41C9E2;
+    color: #ffffff;
+}
+
+.singup-container{
+    display: flex;
+
+    width: 50%;
+    height: 100%;
+
+    background-color: #41C9E2;
+
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+
+    color: #fff;
+    background-color: #313138;
+    
+}
+
+footer p {
+    margin: 10px 0;
+}
